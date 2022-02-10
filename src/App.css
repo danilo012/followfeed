@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.form__class{
+  width:500px;
+  border: #777 1px solid;
+  border-radius:20px;
+  padding:20px;
+  margin:0 auto;
+}
+
+.form__class label{
+  display: block;
+  margin:20px 0;
+}
+
+.form__class span{
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.form__class input{
+  width: 100%;
+  padding:8px;
+  color:#777;
+  border:#777 1px solid;
+  margin:10px 0px;
+  font-size: 1.2rem;
+}
+
+.form__class input:focus{
+  border:#777 2px solid;
+}
+
+.btn{
+  background-color: black;
+  color:white;
+  padding:10px 20px;
+  font-size: 1.4rem;
+  border: #777 1px solid;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.follow_unfollow{
+  display: flex;
+  margin:0 20px;
+  justify-content: space-between;
+}
+
+.view__posts{
+  border:1px solid #777;
+  padding:1em;
+  margin:10px;
+}
+
+.btn--refresh{
+  margin:20px;
+}
